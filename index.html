@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Login Form</title>
+</head>
+
+<body>
+    <form action="" id="formLogin">
+        <label for="nama">Nama Pemohon</label>
+        <input type="text" name="nama" id="nama" >
+        <br>
+        <label for="instansi">Asal Instansi</label>
+        <input type="text" name="instansi" id="instansi" >
+        <br>
+        <label for="hp">No Hp</label>
+        <input type="number" name="hp" id="hp" >
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Masukkan email">
+        <br>
+        <label for="kebutuhan_data">Data Yang Dibutuhkan</label>
+        <textarea name="kebutuhan_data" id="kebutuhan_data" cols="30" rows="10"></textarea>
+        <br>
+        <label for="">Tujuan Permintaan Data</label>
+        <input type="text" name="tujuan_data" id="tujuan_data">
+        <br>
+        <button type="submit">Kirim Permintaan Data</button>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
